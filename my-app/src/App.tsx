@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-// import ConditionalRendering from "./components/ConditionalRendering";
+import ConditionalRendering from "./components/ConditionalRendering";
 // import UseState from "./components/UseState";
 // import ListRendering from "./components/ListRendering";
 // import ListRenderingUniqueId from "./components/ListRenderingUniqueId";
@@ -16,6 +16,7 @@ import Portals from "./components/Portals";
 import UseEffectHook from "./components/UseEffectHook";
 import Refs from "./components/Refs";
 import UseContext from "./components/UseContext";
+import ConditionalComponentRendering from "./components/ConditionalComponentRendering";
 // import DestructuringProps from "./components/DestructuringProps";
 // import ConditionalComponentRendering from "./components/ConditionalComponentRendering";
 // import MapList from "./components/MapLIst";
@@ -44,10 +45,22 @@ function App() {
       {/* 6) pass serInputValue and pass the fuction that updates the state in it */}
       {/* 5) pass the prop to the component */}
       {/* 3) reusable component  */}
-      {/* <UseStateReusableComponents setinputvalue={setFirstInput} inputType="text"></UseStateReusableComponents>
-      <UseStateReusableComponents setinputvalue={setSecondInput} inputType="number"></UseStateReusableComponents>
-      <UseStateReusableComponents setinputvalue={setSecondInput} inputType="password"></UseStateReusableComponents>
-      <UseStateReusableComponents setinputvalue={setSecondInput} inputType="range"></UseStateReusableComponents> */}
+      {/* <UseStateReusableComponents
+        setinputvalue={setFirstInput}
+        inputType="text"
+      ></UseStateReusableComponents>
+      <UseStateReusableComponents
+        setinputvalue={setSecondInput}
+        inputType="number"
+      ></UseStateReusableComponents>
+      <UseStateReusableComponents
+        setinputvalue={setSecondInput}
+        inputType="password"
+      ></UseStateReusableComponents>
+      <UseStateReusableComponents
+        setinputvalue={setSecondInput}
+        inputType="range"
+      ></UseStateReusableComponents> */}
       {/* <div> */}
       {/* 6)  display the inputs in the jsx */}
       {/* <p>first input: {firstInput}</p>
@@ -62,7 +75,7 @@ function App() {
       {/* <ConditionalComponentRendering></ConditionalComponentRendering> */}
       {/* <DestructuringProps name="Rethabile" lastName="Matela" /> */}
       {/* <UseState></UseState> */}
-      {/* <ConditionalRendering></ConditionalRendering> */}
+      <ConditionalRendering></ConditionalRendering>
       {/* <EventBind></EventBind> */}
       {/* <FunctionClick></FunctionClick>
       <Message></Message> */}
